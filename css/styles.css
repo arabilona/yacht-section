@@ -1,0 +1,153 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about-us {
+    background-color: #0E1823;
+    width: 365px;
+    height: 900px;
+}
+
+.section-card {
+    background-color: #FBFBFB;
+    width: 335px;
+    height: 675px;
+    margin-left: 15px;
+    border-radius: 4%;
+}
+
+.about-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -2;
+    padding: 40px 20px;
+    color: #1B414B;
+    margin-bottom: 0;
+}
+
+.benefit-first {
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: -2;
+    color: #1B414B;
+    padding: 20px 20px;
+}
+
+.benefit-second {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -2;
+    color: #040306;
+    padding: 0 20px 40px 20px;
+    opacity: 0.5;
+}
+
+@media screen and (min-width:768px) {
+    .about-us {
+        width: 768px;
+        height: 1500px;
+    }
+    .section-card {
+    width: 704px;
+    height: 675px;
+    margin-left: 32px;
+    }
+    .about-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -2;
+    padding: 50px 136px 50px 32px;
+    color: #1B414B;
+    margin-bottom: 0;
+    }
+    .benefit-first {
+    font-size: 23px;
+    line-height: 1;
+    letter-spacing: -2;
+    color: #1B414B;
+    padding: 50px 283px 20px 32px;
+    }
+    .benefit-second {
+    font-size: 13px;
+    line-height: 1.17;
+    letter-spacing: -2;
+    color: #040306;
+    padding: 20px 287px 50px 32px;
+    opacity: 0.5;
+    }
+    .yacht-img {
+    width: 704px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+.about-us {
+        width: 1280px;
+        height: 2000px;
+    }
+    .section-card {
+        width: 1180px;
+        height: 675px;
+        margin-left: 50px;
+    }
+    .text-part {
+        display: flex;
+    }
+    .about-title {
+        display: flex;
+        gap: 189px;
+        margin-top: 0;
+        padding: 50px 0px 166px 50px;
+    }
+    .benefits {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .benefit-first {
+        padding: 50px 50px 20px 189px;
+    }
+    .benefit-second {
+        padding: 0px 50px 100px 189px;
+    }
+    .yacht-img {
+        width: 1180px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .about-us {
+        width: 1440px;
+        height: 2300px;
+    }
+    .section-card {
+        width: 1340px;
+        height: 675px;
+        margin-left: 50px;
+    }
+    .text-part {
+        display: flex;
+    }
+    .about-title {
+        display: flex;
+        gap: 299px;
+        margin-top: 0;
+        padding: 50px 0px 143px 50px;
+        text-align: left;
+    }
+    .benefits {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .benefit-first {
+        padding: 50px 50px 20px 299px;
+    }
+    .benefit-second {
+        padding: 0px 50px 100px 299px;
+    }
+    .yacht-img {
+        width: 1340px;
+    }
+}
